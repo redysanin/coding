@@ -43,7 +43,7 @@ public class RomanToNum {
 					finalValue = finalValue + intValue;
 				}
 				lastValue = intValue;
-				System.out.println(i + "  = " + finalValue);
+				//System.out.println(i + "  = " + finalValue);
 			}
 			return finalValue;
 		}
@@ -53,7 +53,7 @@ public class RomanToNum {
 
 	public static void main(String[] args) {
 
-		System.out.println("MCMXCIV=" + getRomanToNum("MCMXCIV"));
+		System.out.println("MMMMMMMCMXCIV=" + getRomanToNum("MMMMMMMCMXCIV"));
 
 	}
 
